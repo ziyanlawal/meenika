@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en" <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Portfolio</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+    <!----------------header------------------>
+    <header class="header">
+        <a href="#"><img src="logo3.jpeg" alt="logo"></a>
+        <div class="navMenu" id="navMenu">
+            <i class='bx bx-window-close' onclick="closeMenu()"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i class='bx bx-menu' onclick="openMenu()"></i>
+    </header>
+
+    <!----------------sub-header session------------------>
+    <section class="sub-header" id="sub-header">
+        <h1>About <span>Me</span></h1>
+    </section>
+
+    <!---------------about session------------------>
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./Hijaby.jpeg" alt="my picture">
+        </div>
+        <div class="about-text">
+            <h4><span>I'm a </span>Design Tehchnologist</h4>
+                <p>Who loves creating effective and beautiful user experiences. With a passion for technology and a knack for problem solving. I'm always looking for new and creative ways to bring ideas to life. <br><br>
+                With my expertise in technology, design and creativity. I empowerpeople to take control of their own destiny and build the life they want. Whether it's learning to code, designing a website, or simply expanding their horizons, I'm here to support them every step of the way.<br><br> When I'm not working on the latest design project, you can find me doing things I love, like cooking, crocheting, surfing, or singing. I'm a big believer in the power of balance, and I make sure to take time for the things that bring me joy. This approach helps me bring me joy. This approah heps me bring fresh ideas and a positive attitude to every project I take on</p>
+                <a href="" class="btn">Let's Talk</a>
+        </div>
+    </section>
+
+    <section class="others" id="others">
+        <div class="sub-text-title">
+            <h2>Why <span>Me?</span></h2>
+        </div>
+
+        <div class="others-img">
+            <img src="logo3.jpeg" alt="">
+            <span class="circle-spin"></span>
+        </div>
+
+        <div class="others-text">
+            <h3><span>As </span> a Design Technologist & a web development trainer</h3>
+            <p>
+                - I bring a unique perspective to my work, combining techncal expertise with creative vison.<br><br>
+                - I understand that each person and each projectis unique, and I tailor my approach to meet individual needs.<br><br>
+                - I help people achieve their full potential and make their dreams a reality.<br><br>
+            </p>
+        </div>
+
+        <div> 
+            <a href="" class="btn">Hire Me</a>
+        </div>
+    </section>
+    
+
+        <!----------------footer------------------>
+        <footer class="footer">
+            <div class="attribution">
+                <p>Design with <i class='bx bx-heart'></i> By Lawalziyan</p>
+            </div>
+            <div class="move-up">
+                <a href="#sub-header"><i class='bx bx-up-arrow-alt'></i></a>
+            </div>
+        </footer>
+
+        <!-- JS for toggle menu-->
+        <script>
+            var navMenu = document.getElementById("navMenu");
+
+            function openMenu() {
+                navMenu.style.right = "0";
+            }
+
+            function closeMenu() {
+                navMenu.style.right = "-200px";
+            }
+        </script>
+</body>
+
+</html>
